@@ -30,7 +30,7 @@ def button_opp():
         e.insert(0, opp)
     except:
         e.delete(0, END)
-        e.insert(0, "Error: Invalid Input, Press Clear!")
+        e.insert(0, "Error: Invalid Input, Press Clear and try again.")
 
 
 # Implementation of = Button
@@ -40,7 +40,7 @@ def button_equal():
     try:
         e.insert(0, eval(expression))
     except:
-        e.insert(0, "Error! Press Clear.")
+        e.insert(0, "Error! Press Clear and try again.")
 
 
 # Key binding function (if enter key is pressed)
@@ -65,7 +65,7 @@ def button_sqrt():
         e.insert(0, sqrt)
     except:
         e.delete(0, END)
-        e.insert(0, "Error: Invalid Input, Press Clear!")
+        e.insert(0, "Error: Invalid Input, Press Clear and try again.")
 
 
 # Implementation of log10
@@ -76,7 +76,7 @@ def button_log10():
         e.insert(0, log10)
     except:
         e.delete(0, END)
-        e.insert(0, "Error! Press Clear")
+        e.insert(0, "Error! Press Clear and try again.")
 
 
 # Implementation of Square
@@ -91,7 +91,7 @@ def button_sqr():
         e.insert(0, sqr)
     except:
         e.delete(0, END)
-        e.insert(0, "Error: Invalid Input, Press Clear!")
+        e.insert(0, "Error: Invalid Input, Press Clear and try again")
 
 
 # Implementation of Cube Button
@@ -106,7 +106,7 @@ def button_cube():
         e.insert(0, cube)
     except:
         e.delete(0, END)
-        e.insert(0, "Error: Invalid Input, Press Clear!")
+        e.insert(0, "Error: Invalid Input, Press Clear and try again.")
 
 
 # Implementation of Inverse (1/x) Button
@@ -117,7 +117,7 @@ def button_inverse():
         e.insert(0, inverse)
     except:
         e.delete(0, END)
-        e.insert(0, "Error: Invalid Input, Press Clear!")
+        e.insert(0, "Error: Invalid Input, Press Clear and try again.")
 
 
 # Implementation of log base 2 Button
@@ -128,7 +128,7 @@ def button_log2():
         e.insert(0, log2)
     except:
         e.delete(0, END)
-        e.insert(0, "Error! Press Clear")
+        e.insert(0, "Error! Press Clear and try again.")
 
 
 # Implementation of Mod(|x|) Button
